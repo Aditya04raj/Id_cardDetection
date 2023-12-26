@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import morgan from "morgan";
 import cors from "cors";
 import apiRoutes from "./Routes/apiRoutes.js";
-
+import path from "path";
 dotenv.config();
 const DB=process.env.MONGO_URL;
 

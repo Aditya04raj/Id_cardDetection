@@ -2,10 +2,13 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Server.js",
+    "server": "nodemon Server.js",
+    "client": "npm start --prefix ./client",
+    "build" : "npm install"
   },
   "keywords": [],
   "author": "",
